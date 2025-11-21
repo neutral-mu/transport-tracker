@@ -1,0 +1,2 @@
+trip_id,route_id,stop_id,scheduled_time_iso,actual_time_iso,delay_min,alert_flag,alert_level,notes
+

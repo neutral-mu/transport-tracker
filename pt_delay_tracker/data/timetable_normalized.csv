@@ -1,0 +1,2 @@
+trip_id,route_id,service_date,stop_id,stop_sequence,scheduled_time_iso,scheduled_time_epoch,arrival_window_start_epoch,arrival_window_end_epoch,platform,origin,destination
+

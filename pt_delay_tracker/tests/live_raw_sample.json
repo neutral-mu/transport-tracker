@@ -1,0 +1,14 @@
+{
+  "vehicles": [
+    {
+      "id": "veh_1001",
+      "trip": {"trip_id": "trip_9001", "route": "R12"},
+      "timestamp": "2025-11-19T13:05:30Z",
+      "position": {"lat": 12.9716, "lon": 77.5946},
+      "stop_id": "stop_45",
+      "status": "IN_TRANSIT_TO",
+      "speed": 23.5
+    }
+  ]
+}
+
