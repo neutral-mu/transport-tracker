@@ -12,10 +12,10 @@ TEST_DIR="${TEST_DIR:-${BASE_DIR}/tests}"
 LOCK_DIR="${LOCK_DIR:-/var/lock/pt_delay_tracker}"
 
 # API settings (used by live data ingestion)
-API_URL="${API_URL:-https://api.example.com/v1/vehicle_positions}"
-API_KEY="${API_KEY:-REPLACE_WITH_KEY}"
-API_RETRIES="${API_RETRIES:-3}"
-API_TIMEOUT="${API_TIMEOUT:-10}"
+API_URL="https://api.tfl.gov.uk/StopPoint/940GZZLUKSX/Arrivals"
+API_KEY=""
+API_RETRIES=3
+API_TIMEOUT=10
 
 # Time formats
 TIMEZONE="${TIMEZONE:-UTC}"
