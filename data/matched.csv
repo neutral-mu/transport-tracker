@@ -1,2 +1,1 @@
 match_id,trip_id,live_timestamp_iso,live_timestamp_epoch,vehicle_id,stop_id,scheduled_time_iso,scheduled_time_epoch,actual_time_iso,actual_time_epoch,delay_min,match_score,match_method,notes
-

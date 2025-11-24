@@ -1,5 +1,4 @@
-trip_id,route_id,service_date,stop_id,stop_sequence,scheduled_time_iso
-trip_9001,R12,2025-11-19,stop_40,1,2025-11-19T12:55:00Z
-trip_9001,R12,2025-11-19,stop_41,2,2025-11-19T13:00:00Z
-trip_9001,R12,2025-11-19,stop_45,6,2025-11-19T13:10:00Z
-
+trip_id,route_id,service_date,stop_id,stop_sequence,scheduled_time_iso,scheduled_time_epoch
+trip_9001,R12,2025-11-19,stop_40,1,2025-11-19T12:55:00Z,1700360100
+trip_9001,R12,2025-11-19,stop_41,2,2025-11-19T13:00:00Z,1700360400
+trip_9001,R12,2025-11-19,stop_45,6,2025-11-19T13:10:00Z,1700361000
