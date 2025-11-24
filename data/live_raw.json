@@ -1,0 +1,1039 @@
+{
+  "vehicles": [
+    {
+      "id": "200",
+      "trip": {
+        "trip_id": "202451412",
+        "route": "circle"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Gloucester Road Platform 2",
+      "speed": null
+    },
+    {
+      "id": "204",
+      "trip": {
+        "trip_id": "-88909976",
+        "route": "circle"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Edgware Road and Baker Street",
+      "speed": null
+    },
+    {
+      "id": "205",
+      "trip": {
+        "trip_id": "1608179923",
+        "route": "circle"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Ladbroke Grove Platform 1",
+      "speed": null
+    },
+    {
+      "id": "206",
+      "trip": {
+        "trip_id": "1013083190",
+        "route": "circle"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Hammersmith Platform 3",
+      "speed": null
+    },
+    {
+      "id": "212",
+      "trip": {
+        "trip_id": "1384859276",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Aldgate Platform 4",
+      "speed": null
+    },
+    {
+      "id": "213",
+      "trip": {
+        "trip_id": "824357419",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Cannon Street and Monument",
+      "speed": null
+    },
+    {
+      "id": "214",
+      "trip": {
+        "trip_id": "-268816570",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At St James's Park Platform 2",
+      "speed": null
+    },
+    {
+      "id": "266",
+      "trip": {
+        "trip_id": "691016728",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Left Baker Street",
+      "speed": null
+    },
+    {
+      "id": "267",
+      "trip": {
+        "trip_id": "-2016706121",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Westbourne Park and Royal Oak",
+      "speed": null
+    },
+    {
+      "id": "270",
+      "trip": {
+        "trip_id": "421941754",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Shepherds Bush Market Platform 1",
+      "speed": null
+    },
+    {
+      "id": "271",
+      "trip": {
+        "trip_id": "-134623983",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Hammersmith Platform 2",
+      "speed": null
+    },
+    {
+      "id": "275",
+      "trip": {
+        "trip_id": "1251711229",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Aldgate East and Liverpool Street",
+      "speed": null
+    },
+    {
+      "id": "276",
+      "trip": {
+        "trip_id": "691213336",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Left Bow Road",
+      "speed": null
+    },
+    {
+      "id": "413",
+      "trip": {
+        "trip_id": "824357413",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Aldgate Platform 3",
+      "speed": null
+    },
+    {
+      "id": "435",
+      "trip": {
+        "trip_id": "1251973375",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Moorgate Platform 1",
+      "speed": null
+    },
+    {
+      "id": "436",
+      "trip": {
+        "trip_id": "691475482",
+        "route": "hammersmith-city"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Kings Cross St. Pancras and Farringdon",
+      "speed": null
+    },
+    {
+      "id": "401",
+      "trip": {
+        "trip_id": "-1739872196",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Baker Street Platform 3",
+      "speed": null
+    },
+    {
+      "id": "413",
+      "trip": {
+        "trip_id": "1587140362",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Aldgate Platform 3",
+      "speed": null
+    },
+    {
+      "id": "426",
+      "trip": {
+        "trip_id": "1183805749",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Finchley Road Platform 4",
+      "speed": null
+    },
+    {
+      "id": "433",
+      "trip": {
+        "trip_id": "1587009290",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Liverpool Street Platform 2",
+      "speed": null
+    },
+    {
+      "id": "434",
+      "trip": {
+        "trip_id": "-2139141521",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Aldgate Platform 2",
+      "speed": null
+    },
+    {
+      "id": "435",
+      "trip": {
+        "trip_id": "623181264",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Moorgate Platform 1",
+      "speed": null
+    },
+    {
+      "id": "436",
+      "trip": {
+        "trip_id": "1183609141",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Kings Cross St. Pancras and Farringdon",
+      "speed": null
+    },
+    {
+      "id": "437",
+      "trip": {
+        "trip_id": "-394926946",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Finchley Road and Baker Street",
+      "speed": null
+    },
+    {
+      "id": "440",
+      "trip": {
+        "trip_id": "1990079707",
+        "route": "metropolitan"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Neasden and Willesden Green",
+      "speed": null
+    },
+    {
+      "id": "005",
+      "trip": {
+        "trip_id": "-1694234362",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Chalk Farm and Camden Town",
+      "speed": null
+    },
+    {
+      "id": "013",
+      "trip": {
+        "trip_id": "-525065268",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Departed Old Street",
+      "speed": null
+    },
+    {
+      "id": "026",
+      "trip": {
+        "trip_id": "-123566597",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Approaching Hendon Central",
+      "speed": null
+    },
+    {
+      "id": "030",
+      "trip": {
+        "trip_id": "-926105571",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Tufnell Park Platform 2",
+      "speed": null
+    },
+    {
+      "id": "043",
+      "trip": {
+        "trip_id": "-524737588",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Oval Platform 1",
+      "speed": null
+    },
+    {
+      "id": "044",
+      "trip": {
+        "trip_id": "1045544609",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Approaching Burnt Oak",
+      "speed": null
+    },
+    {
+      "id": "065",
+      "trip": {
+        "trip_id": "-1693579002",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Kings Cross P7",
+      "speed": null
+    },
+    {
+      "id": "067",
+      "trip": {
+        "trip_id": "1448939600",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Balham and Clapham South",
+      "speed": null
+    },
+    {
+      "id": "116",
+      "trip": {
+        "trip_id": "-123501060",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Golders Green and Hampstead",
+      "speed": null
+    },
+    {
+      "id": "117",
+      "trip": {
+        "trip_id": "1448742993",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between High Barnet and Totteridge & Whetstone",
+      "speed": null
+    },
+    {
+      "id": "120",
+      "trip": {
+        "trip_id": "-926040034",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Departed Stockwell",
+      "speed": null
+    },
+    {
+      "id": "122",
+      "trip": {
+        "trip_id": "-2095261848",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Tooting Bec and Balham",
+      "speed": null
+    },
+    {
+      "id": "153",
+      "trip": {
+        "trip_id": "-524803123",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Approaching Euston",
+      "speed": null
+    },
+    {
+      "id": "154",
+      "trip": {
+        "trip_id": "1045479074",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Archway Platform 2",
+      "speed": null
+    },
+    {
+      "id": "155",
+      "trip": {
+        "trip_id": "-1693513465",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Elephant and Castle Platform 1",
+      "speed": null
+    },
+    {
+      "id": "160",
+      "trip": {
+        "trip_id": "-927875042",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Kennington and  Elephant and Castle",
+      "speed": null
+    },
+    {
+      "id": "161",
+      "trip": {
+        "trip_id": "644373747",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Angel Platform 2",
+      "speed": null
+    },
+    {
+      "id": "167",
+      "trip": {
+        "trip_id": "1448939601",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Clapham South Platform 1",
+      "speed": null
+    },
+    {
+      "id": "212",
+      "trip": {
+        "trip_id": "-2095196311",
+        "route": "northern"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Bank Platform 4",
+      "speed": null
+    },
+    {
+      "id": "222",
+      "trip": {
+        "trip_id": "-1620521719",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Knightsbridge Platform 1",
+      "speed": null
+    },
+    {
+      "id": "233",
+      "trip": {
+        "trip_id": "-53593682",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Piccadilly Circus and Leicester Square",
+      "speed": null
+    },
+    {
+      "id": "241",
+      "trip": {
+        "trip_id": "975062676",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Turnpike Lane Platform 2",
+      "speed": null
+    },
+    {
+      "id": "300",
+      "trip": {
+        "trip_id": "-725886352",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Arnos Grove Platform 4",
+      "speed": null
+    },
+    {
+      "id": "305",
+      "trip": {
+        "trip_id": "-2022698119",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Hyde Park Corner and Green Park",
+      "speed": null
+    },
+    {
+      "id": "306",
+      "trip": {
+        "trip_id": "-456613986",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Left Barons Court",
+      "speed": null
+    },
+    {
+      "id": "326",
+      "trip": {
+        "trip_id": "-455696482",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Covent Garden Platform 2",
+      "speed": null
+    },
+    {
+      "id": "327",
+      "trip": {
+        "trip_id": "1244465715",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At South Kensington Platform 4",
+      "speed": null
+    },
+    {
+      "id": "330",
+      "trip": {
+        "trip_id": "-726082960",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Ravenscourt Park and Hammersmith",
+      "speed": null
+    },
+    {
+      "id": "333",
+      "trip": {
+        "trip_id": "-53593681",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Hyde Park Corner Platform 1",
+      "speed": null
+    },
+    {
+      "id": "341",
+      "trip": {
+        "trip_id": "975062677",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Arsenal and Holloway Road",
+      "speed": null
+    },
+    {
+      "id": "365",
+      "trip": {
+        "trip_id": "-2022042759",
+        "route": "piccadilly"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Covent Garden and Holborn",
+      "speed": null
+    },
+    {
+      "id": "203",
+      "trip": {
+        "trip_id": "-1437851875",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Highbury & Islington and Kings Cross St. P",
+      "speed": null
+    },
+    {
+      "id": "205",
+      "trip": {
+        "trip_id": "-771934773",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Blackhorse Road and Tottenham Hale",
+      "speed": null
+    },
+    {
+      "id": "212",
+      "trip": {
+        "trip_id": "-907744326",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Seven Sisters and Finsbury Park",
+      "speed": null
+    },
+    {
+      "id": "213",
+      "trip": {
+        "trip_id": "-1437786339",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Oxford Circus and Warren Street",
+      "speed": null
+    },
+    {
+      "id": "220",
+      "trip": {
+        "trip_id": "-2110456628",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Euston",
+      "speed": null
+    },
+    {
+      "id": "221",
+      "trip": {
+        "trip_id": "1822253095",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Finsbury Park and Highbury & Islington",
+      "speed": null
+    },
+    {
+      "id": "223",
+      "trip": {
+        "trip_id": "-1438507235",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Stockwell",
+      "speed": null
+    },
+    {
+      "id": "233",
+      "trip": {
+        "trip_id": "-1438441699",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Green Park and Oxford Circus",
+      "speed": null
+    },
+    {
+      "id": "234",
+      "trip": {
+        "trip_id": "1957397104",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Departing Pimlico",
+      "speed": null
+    },
+    {
+      "id": "235",
+      "trip": {
+        "trip_id": "-772786741",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Tottenham Hale and Seven Sisters",
+      "speed": null
+    },
+    {
+      "id": "241",
+      "trip": {
+        "trip_id": "1821597735",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Highbury & Islington",
+      "speed": null
+    },
+    {
+      "id": "242",
+      "trip": {
+        "trip_id": "-906236998",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "At Vauxhall",
+      "speed": null
+    },
+    {
+      "id": "267",
+      "trip": {
+        "trip_id": "480521345",
+        "route": "victoria"
+      },
+      "timestamp": "2025-11-24T15:44:31.3543113Z",
+      "position": {
+        "lat": null,
+        "lon": null
+      },
+      "stop_id": "940GZZLUKSX",
+      "status": "Between Seven Sisters and Finsbury Park",
+      "speed": null
+    }
+  ]
+}
