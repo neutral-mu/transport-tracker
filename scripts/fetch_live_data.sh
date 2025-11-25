@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# fetch_live_data.sh - fetch TfL arrivals and normalize to vehicles JSON
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -7,65 +9,49 @@ ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 source "${ROOT_DIR}/lib.sh"
 
 OUT_JSON="${DATA_DIR}/live_raw.json"
-TMP_RAW="${DATA_DIR}/live_raw_tfl.tmp"
-TMP_NORM="${DATA_DIR}/live_raw_normalized.tmp"
-
-fetch_once() {
-  log_info "Fetching live data from TfL: ${API_URL}"
-  curl -sS --max-time "${API_TIMEOUT}" \
-    "${API_URL}?${API_KEY}" \
-    -o "${TMP_RAW}"
-}
-
-normalize_tfl_to_project() {
-  jq '{
-    vehicles: [
-      .[] |
-      {
-        id: (.vehicleId // "unknown_vehicle"),
-        trip: {
-          trip_id: (.id // "trip_unknown"),
-          route: (.lineId // "route_unknown")
-        },
-        timestamp: (.timestamp // .expectedArrival),
-        position: {
-          lat: (.latitude // null),
-          lon: (.longitude // null)
-        },
-        stop_id: (.naptanId // "stop_unknown"),
-        status: (.currentLocation // "UNKNOWN"),
-        speed: (.speed // null)
-      }
-    ]
-  }' "${TMP_RAW}" > "${TMP_NORM}"
-}
+TMP_JSON="${OUT_JSON}.tmp"
 
 main() {
-  local attempt=1
-  local ok=0
+  log_info "Fetching live data from TfL: ${API_URL}"
 
-  while (( attempt <= API_RETRIES )); do
-    if fetch_once; then
-      if jq empty "${TMP_RAW}" >/dev/null 2>&1; then
-        ok=1
-        break
-      fi
-    fi
-    attempt=$(( attempt + 1 ))
-    sleep 1
-  done
-
-  if (( ok == 0 )); then
-    log_error "Failed to fetch live data"
+  # --- 1) Fetch raw Arrivals array from TfL ---
+  if ! curl -fsS --max-time "${API_TIMEOUT}" "${API_URL}" -o "${TMP_JSON}"; then
+    log_error "curl to TfL failed"
+    rm -f "${TMP_JSON}" || true
     exit 1
   fi
 
-  normalize_tfl_to_project
+  # --- 2) Normalize to our canonical { vehicles: [ ... ] } structure ---
+  # TfL Arrivals is an array; we map each element to our fields.
+  if ! jq '
+    {
+      vehicles: [
+        .[] | {
+          id:          ( .vehicleId // .vehicleId // .id // "unknown" ),
+          trip: {
+            trip_id:   ( .vehicleId // .id // "unknown" ),
+            route:     ( .lineId // .lineName // "unknown" )
+          },
+          timestamp:   ( .timestamp // .timeToLive // now | tostring ),
+          position: {
+            lat:      ( .lat // null ),
+            lon:      ( .lon // null )
+          },
+          stop_id:     ( .naptanId // .stationId // "unknown" ),
+          status:      ( .currentLocation // .platformName // .towards // "Unknown" ),
+          speed:       null
+        }
+      ]
+    }
+  ' "${TMP_JSON}" > "${OUT_JSON}"; then
+    log_error "jq normalization failed"
+    rm -f "${TMP_JSON}" || true
+    exit 1
+  fi
 
-  mv "${TMP_NORM}" "${OUT_JSON}"
-  rm -f "${TMP_RAW}"
-
-  log_info "Saved normalized JSON → ${OUT_JSON}"
+  rm -f "${TMP_JSON}" || true
+  log_info "Saved normalized JSON -> ${OUT_JSON}"
+  exit 0
 }
 
 main "$@"
