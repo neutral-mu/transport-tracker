@@ -7,6 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
 source "${ROOT_DIR}/lib.sh"
+set +e
 
 MATCHED_CSV="${DATA_DIR}/matched.csv"
 DELAYS_CSV="${DATA_DIR}/delays.csv"
