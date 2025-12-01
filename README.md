@@ -4,7 +4,7 @@
 
 #### Processes public transport timetable data along with real-time delay updates to generate puntuality reports and alerts
 
-Usage:
+## Usage:
 Create a file config/secrets.sh
 
 Add this:
@@ -14,4 +14,13 @@ export EMAIL_USER=""
 export EMAIL_PASS=""
 export SMTP_URL=""
 export ALERT_RECIPIENT=""
+```
+
+### Dependencies:
+```
+gnuplot
+malix
+wkhtmltopdf-static
+jq
+cronie
 ```
