@@ -1,0 +1,32 @@
+<html>
+<head>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .stats { display: flex; gap: 20px; }
+        .card { border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .MAJOR_DELAY { background-color: #ffcccc; color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Public Transport Punctuality: 2025-12-03</h1>
+    <div class="stats">
+        <div class="card"><strong>On-Time Performance:</strong> 0.00%</div>
+        <div class="card"><strong>Avg Delay:</strong> 18.80 min</div>
+        <div class="card"><strong>Total Tracked:</strong> 5</div>
+    </div>
+    
+    <h3>Delay Visualization</h3>
+    <img src="/home/kaushal/Code/scripting/public_transport_tracker/output/reports/chart_2025-12-03.png" alt="Delay Chart" width="600">
+
+    <h3>Detailed Log</h3>
+    <table>
+        <tr><th>Route</th><th>Bus</th><th>Scheduled</th><th>Actual</th><th>Delay (min)</th><th>Status</th></tr>
+<tr><td>R101</td><td>B001</td><td>08:00</td><td>08:04</td><td>4</td><td>MINOR_DELAY</td></tr>
+<tr class=MAJOR_DELAY><td>R101</td><td>B002</td><td>08:30</td><td>08:57</td><td>27</td><td>MAJOR_DELAY</td></tr>
+<tr class=MAJOR_DELAY><td>R102</td><td>B003</td><td>08:15</td><td>08:42</td><td>27</td><td>MAJOR_DELAY</td></tr>
+<tr><td>R103</td><td>B004</td><td>09:00</td><td>09:13</td><td>13</td><td>MINOR_DELAY</td></tr>
+<tr class=MAJOR_DELAY><td>R101</td><td>B005</td><td>09:15</td><td>09:38</td><td>23</td><td>MAJOR_DELAY</td></tr>
+    </table></body></html>

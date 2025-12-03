@@ -1,8 +1,6 @@
 #!/bin/bash
 # setup_wizard.sh
 
-# --- HARDCODED CREDENTIALS (DEV ONLY) ---
-# REPLACE THIS with the actual Gmail address you just created:
 SENDER_EMAIL="neutral.mu@gmail.com"
 SENDER_PASS="uxtk rzts hetj lwwh"
 # ----------------------------------------

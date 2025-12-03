@@ -16,10 +16,17 @@ export SMTP_URL=""
 export ALERT_RECIPIENT=""
 ```
 
+To run, use
+```bash
+bash ./scripts/run_pipeline.sh
+```
+
+Reports are generated in output/reports
+
 ### Dependencies:
 ```
 gnuplot
-malix
+mailx
 wkhtmltopdf-static
 jq
 cronie
